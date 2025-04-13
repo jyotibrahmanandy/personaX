@@ -8,18 +8,24 @@ body {
 }
 .navbar{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 50px;
   background-image: url("pexels-jplenio-1103970.jpg")
+
 }
 
 .nav-links{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   list-style: none;
   margin: 0 23px;
-  align-items: center;
+}
+.nav-links li{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0 23px;
 }
 h2{
   display: flex;
@@ -45,6 +51,12 @@ p{
   
 }
 .hero-about{
-
+  display: flex;
+  justify-content: center;
+  background-image: url("pexels-jplenio-1103970.jpg")
+  
+}
+h3{
+  height: 100px;
 }
 
